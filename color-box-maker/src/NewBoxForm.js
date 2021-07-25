@@ -28,7 +28,7 @@ function NewBoxForm({ createBox }) {
         <div>
             <form onSubmit={handleSubmit}>
                 <div>
-                    <label>Input Color</label>
+                    <label htmlFor="color">Input Color</label>
                     <input
                         type="text"
                         name="color"
@@ -39,7 +39,7 @@ function NewBoxForm({ createBox }) {
                     />
                 </div>
                 <div>
-                    <label>Input Height</label>
+                    <label htmlFor="height">Input Height</label>
                     <input
                         type="text"
                         name="height"
@@ -50,7 +50,7 @@ function NewBoxForm({ createBox }) {
                     />
                 </div>
                 <div>
-                    <label>Input Width</label>
+                    <label htmlFor="width">Input Width</label>
                     <input
                         type="text"
                         name="width"
